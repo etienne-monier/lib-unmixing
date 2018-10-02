@@ -4,8 +4,8 @@
 
 The three functions implemented in this library are:
 - **[Vertex Component Analysis (VCA)](#vca-function)**. Related article is J. Nascimento and J. Dias, "Vertex Component Analysis: A fast algorithm to unmix hyperspectral data", IEEE Transactions on Geoscience and Remote Sensing, vol. 43, no. 4, pp. 898-910, 2005. 
-- **Simplex Identification via Split Augmented Lagrangian (SISAL)**. Related article is J. Bioucas-Dias, "A variable splitting augmented Lagrangian approach to linear spectral unmixing", in First IEEE GRSS Workshop on Hyperspectral Image and Signal Processing-WHISPERS'2009, Grenoble, France, 2009. 
-- **Sparse Unmixing via variable Splitting and Augmented Lagrangian methods(SUNSAL)**. Related article is Bioucas-Dias, J. M., & Figueiredo, M. A., "Alternating direction algorithms for constrained sparse regression: Application to hyperspectral unmixing." in Workshop in Hyperspectral Image and Signal Processing: Evolution in Remote Sensing (WHISPERS), 2010  (pp. 1-4).
+- **[Simplex Identification via Split Augmented Lagrangian (SISAL)](#sisal-function)**. Related article is J. Bioucas-Dias, "A variable splitting augmented Lagrangian approach to linear spectral unmixing", in First IEEE GRSS Workshop on Hyperspectral Image and Signal Processing-WHISPERS'2009, Grenoble, France, 2009. 
+- **[Sparse Unmixing via variable Splitting and Augmented Lagrangian methods(SUNSAL)](#sunsal-function)**. Related article is Bioucas-Dias, J. M., & Figueiredo, M. A., "Alternating direction algorithms for constrained sparse regression: Application to hyperspectral unmixing." in Workshop in Hyperspectral Image and Signal Processing: Evolution in Remote Sensing (WHISPERS), 2010  (pp. 1-4).
 
 Matlab versions of these codes are available in the [Jose Bioucas Dias website](http://www.lx.it.pt/~bioucas/code.htm).
 
@@ -126,7 +126,7 @@ This code is a translation of a matlab code provided by Jose Nascimento (zen@ise
 Translation of last version at 20-April-2018 (Matlab version 2.1 (7-May-2004))
 
 
-## SUNSAL algorithm
+## SUNSAL function
 
 ### Usage
 x = sunsal_v2(M,Y,**kwargs)
